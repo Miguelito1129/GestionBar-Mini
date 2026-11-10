@@ -1,0 +1,43 @@
+{
+  "name": "gestion-bar",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 5173 --strictPort",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "npm run build && node server.js",
+    "build:portable": "npm run build && pkg --config package.json server.js --targets node24-win-x64 --output release/GestionBar.exe",
+    "license:authorize": "node scripts/authorize-device.cjs",
+    "dev:server": "node server.js",
+    "cap:sync": "npm run build && npx cap sync android",
+    "cap:open": "npx cap open android",
+    "cap:run": "npx cap run android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.3.1",
+    "@capacitor/cli": "^8.3.1",
+    "@capacitor/core": "^8.3.1",
+    "express": "^4.19.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^2.12.7"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "@yao-pkg/pkg": "^6.23.0",
+    "typescript": "^6.0.3",
+    "vite": "^5.4.2"
+  },
+  "pkg": {
+    "assets": [
+      "dist/**/*"
+    ],
+    "scripts": [
+      "backend/**/*.js"
+    ]
+  },
+  "engines": {
+    "node": ">=22.5"
+  }
+}

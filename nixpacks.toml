@@ -1,0 +1,11 @@
+# Nixpacks config — evita que instale Caddy automáticamente
+# El frontend se sirve con node server.js (Express), no con Caddy
+
+[phases.install]
+cmds = ["npm install --include=dev"]
+
+[phases.build]
+cmds = ["npm run build"]
+
+[start]
+cmd = "node server.js"

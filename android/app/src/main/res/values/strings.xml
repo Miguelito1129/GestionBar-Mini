@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">GestiónBar</string>
+    <string name="title_activity_main">GestiónBar</string>
+    <string name="package_name">co.gesbar.app</string>
+    <string name="custom_url_scheme">co.gesbar.app</string>
+</resources>

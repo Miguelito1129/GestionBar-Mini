@@ -1,0 +1,47 @@
+
+Plan: Eres un desarrollador de software con 15 años de experiencia generando soluciones escalables para pequeñas y medianas empresas enfocado siempre en la facilidad de los procesos y la seguridad de los datos, abre y entiende los archivos en excel, son dos de las varias empresas que administro toma como ejemplo de parte de la la informacion que se alimenta en estos negocios, crea una app de gestion empresarial escalable enfocada en el sector de bares y discotecas en la que se pueda alimentar los datos de ventas diarias por planillas.
+
+El software se dividira en la alimentacion de los datos por planillas con la afectacion a un inventario, 
+para que los meseros puedan registrar los pedidos por mesa, el control de despachos en la barra, el ingreso de dinero en efectivo y en trasferencias, con el registro de gastos registrados en el turno y generando un listado comparativo con los movimientos del turno activo como se ve en las planillas en archivo de excel, esto para facilitar el conteo diario y el cierre de la planilla por dia una vez registrados todos los datos, la afectacion directa a inventarios.
+
+Una vez teniendo la informacion de las planillas generadas por dia se hace un cierre semanal donde se registran los gastos como arriendos, pago de servicios, pago de facturas a proveedores adelandos en dinero para socios, pago de administrador entre otros muchos, los cierres deben poder monitorearse en tiempo real con los datos de las planillas diarias y con la informacion del registro de gastos.
+
+
+Explicaion del proceso de un turno:
+
+1. El administrador abre una planilla con la informacion de las existencias de inventario para que la persona responsable de la barra para que se realice el conteo fisico y reciba este inventario.
+2. El administrador entrega el dinero de la base a la persona responsable de la barra.
+3. El administrador verifica la llegada y la presentacion (zapatos limpios, camisa planchada, uniforme limpio) de los meseros que van a atender ese turno.
+4. una vez revizado y apuntado las novedades se inicia el servicio al cliente.
+5. los clientes llegan y el mesero los conduce a una mesa, el mesero les toma el pedido ajilmente en un recibo (comanda).
+6. El mesero se dirije a la barra para entrega la comanda al resposable de la barra y el dinero de este pedido.
+7. La persona responsable de la barra recibe y verifica el dinero, alista y entrega los productos al mesero para que los lleve a la mesa.
+8. Cuando se despachan algunos productos como "aguardientes" de cualquier marca se entrega una botella de agua de cortesia, o si fuera un "Whisky" se entrega un gatorade de cortesia, o si fuera un "Ron" se entrega una gaseosa personal de cortesia.
+9. la persona responsable de la barra es responsable de la entrega de los productos al los meseros y de la recepcion del dinero o verificacion de la trasnferencias bancaria.
+10. En las discotecas el pago de los productos por parte del cliente es inmediato, en la cantina una misma mesa puede tener varios pedidos o comandas y el cuando el cliente se va a retirar se le cobra la totalidad de los pedidos por mesa.
+11. tambien es responsable de realizar algunas compras necesarias para el correcto funcionamiento del negocio como: vasos desechables, sal, limon, siempre solicitando factura para registrar el gasto.
+12. la persona encargada de la barra puede entregar dinero para algun pago o inprevisto previa autorizacion de los dueños o del administrador.
+13. Algunas veces "los dueños unicamente autorizan" el descuento de algun producto (ejemplo, una botella que cuesta 300.000 pesos, la dejan a 280.000 pesos)esto lo registran los meseros en la comanda.
+14. Algunas veces "los dueños unicamente autorizan" que un producto se entregue como cortesia, esto lo registran los meseros en la comanda.
+15. Algunas veces se autoriza el ingreso de bebidas a clientes a esto se le llama descorche y dependiendo del producto se cobra un valor ( ejemplo, el cliente trae una botella exclusiva y quiere ingresarla, se determina que el valor de este ingreso es de 50.000 pesos) esto queda registrado en la barra.
+15. Al cierre del turno, el administrador verifica el total de comandas por mesero para realizar el pago del porcentaje que es el 5% del total de venta por mesero, esto debe quedar registrado en la planilla como un gasto del turno.
+16. Se debe generar un listado del inventario para que el administrador verifique las existencias y haga el cruce para saber el total de venta en esa planilla.
+17. El administrador verifica con el encargado de la barra los gastos con las facturas, y los desembolsos de dinero autorizados, tambien las cortecias y los descuentos, todo para que quede registrado en la planilla.
+18. Se verifica cuanto dinero hay en efectivo y cuanto hay en trasferencias, para validar que el dinero y los ingresos sean correctos.
+19. una vez verificados todos los ingresos y egresos, y de recibido el dinero y verificado las trasnferencias, se hace el cierre de la planilla, si hay novedades como algun fallo de algun dispositivo, o algun problema con el dinero o una tranferencia quedara como novedad en la planilla.
+
+
+Explicaion de los procesos del Administrador en una semana:
+
+1. El administrador verificara el total del dinero y tranferencias, y almacenara el dinero en una caja fuerte.
+2. El administrador debe pagar facturas pendientes, pagar sueldos como aseo y mantenimiento, arriendo, servicios publicos, internet, etc.
+3. El administrador puede hacer dembolsos para anticipos de trabajos estructurales o reparacion de equipos.
+4. El administrador puede hacer entrega de dinero a los dueños si estos se lo solicitan.
+5. El administrador debera estar pendiente de hacer contrataciones para arreglos urgentes o programados y que estos se cumpla.
+6. El administrador al final de la semana habil debera hacer una entrega del dinero y/o tranferencias a los dueños y tambien dar parte del las novedades presentadas en la semana para mejoras y/o programacion de mantenimientos.
+7. El administrador ingresa los productos comprados al inventario, y se asegura del stock correto de los productos.
+
+Explicaion de los procesos del los dueños:
+
+1. Estar realizando programaciones de enventos y verificaciones de contratos.
+2. puden monitorear las planillas, el inventario, las novedades, los gastos, los ingresos semanales, mensuales, para realizar estudios y programar compras o mejoras, o eventos.
